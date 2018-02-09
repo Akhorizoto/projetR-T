@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Main.java&apos; to &apos;generation/src/main/java/launcher&apos;&#x0A;- Original project: &apos;generation&apos;&#x0A;- Destination element: &apos;generation/src/main/java/launcher&apos;&#x0A;- Original element: &apos;launcher.Main.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;launcher" element1="/src\/main\/java&lt;launcher{Main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1507139943515" units="1" version="1.0"/>
+</session>

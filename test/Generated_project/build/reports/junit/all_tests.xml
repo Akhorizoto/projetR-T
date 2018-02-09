@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="35" tests="36" time="22.523712">
+<testcase classname="CAPEC-10: Buffer Overflow via Environment Variables" name="Step1.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-10: Buffer Overflow via Environment Variables" name="Step2.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-10: Buffer Overflow via Environment Variables" name="Step3.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-13: Subverting Environment Variable Values" name="Step1.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-13: Subverting Environment Variable Values" name="Step2.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-13: Subverting Environment Variable Values" name="Step3.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-207: Removing Important Client Functionality" name="Step1.1 Probing" time="0.06348">
+<skipped><![CDATA[Given prepare to Probing....................................................passed
+When Try to Probing.........................................................passed
+Then Assert the success of Probing..........................................passed
+Then assert the consequences of the pattern.................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-207: Removing Important Client Functionality" name="Step2.1 Determine which functionality to disable or remove" time="0.00013">
+<skipped><![CDATA[Given prepare to Determine which functionality to disable or remove.........passed
+When Try to Determine which functionality to disable or remove..............passed
+Then Assert the success of Determine which functionality to disable or remove.passed
+Then assert the consequences of the pattern.................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-207: Removing Important Client Functionality" name="Step3.1 Disable or remove the critical functionality from the client code" time="0.000131">
+<skipped><![CDATA[Given prepare to Disable or remove the critical functionality from the client code.passed
+When Try to Disable or remove the critical functionality from the client code.passed
+Then Assert the success of Disable or remove the critical functionality from the client code.passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-219: XML Routing Detour Attacks" name="Step1.1 Survey the target" time="0.559693">
+<skipped><![CDATA[Given prepare to Survey the target..........................................passed
+When Try to Survey the target...............................................passed
+Then Assert the success of Survey the target................................passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-219: XML Routing Detour Attacks" name="Step2.1 Identify SOAP messages that have multiple state processing." time="0.000145">
+<skipped><![CDATA[Given prepare to Identify SOAP messages that have multiple state processing..passed
+When Try to Identify SOAP messages that have multiple state processing......passed
+Then Assert the success of Identify SOAP messages that have multiple state processing..passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-219: XML Routing Detour Attacks" name="Step3.1 Launch an XML routing detour attack" time="0.00015">
+<skipped><![CDATA[Given prepare to Launch an XML routing detour attack........................passed
+When Try to Launch an XML routing detour attack.............................passed
+Then Assert the success of Launch an XML routing detour attack..............passed
+Then assert the consequences of the pattern.................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-244: Cross-Site Scripting via Encoded URI Schemes" name="Step1.1 Survey the application" time="0.647835">
+<skipped><![CDATA[Given prepare to Survey the application.....................................passed
+When Try to Survey the application..........................................passed
+Then Assert the success of Survey the application...........................passed
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-244: Cross-Site Scripting via Encoded URI Schemes" name="Step2.1 Attempt injection payload variations on input parameters" time="19.711394">
+<skipped><![CDATA[Given prepare to Attempt injection payload variations on input parameters...passed
+When Try to Attempt injection payload variations on input parameters........passed
+Then Assert the success of Attempt injection payload variations on input parameters.passed
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+Then assert the consequences of the pattern input guard.....................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-244: Cross-Site Scripting via Encoded URI Schemes" name="Step3.1 Steal session IDs, credentials, page content, etc." time="0.000099">
+<skipped><![CDATA[Given prepare to Steal session IDs, credentials, page content, etc..........passed
+When Try to Steal session IDs, credentials, page content, etc...............passed
+Then Assert the success of Steal session IDs, credentials, page content, etc..passed
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+Then assert the consequences of the pattern application firewall............undefined
+Then assert the consequences of the pattern input guard.....................undefined
+Then assert the consequences of the pattern output guard....................undefined
+Then assert the consequences of the pattern comparator checked fault tolerant system.undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-244: Cross-Site Scripting via Encoded URI Schemes" name="Step3.2 Forceful browsing" time="0.000121">
+<skipped><![CDATA[Given prepare to Forceful browsing..........................................passed
+When Try to Forceful browsing...............................................passed
+Then Assert the success of Forceful browsing................................passed
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+Then assert the consequences of the pattern application firewall............undefined
+Then assert the consequences of the pattern input guard.....................undefined
+Then assert the consequences of the pattern output guard....................undefined
+Then assert the consequences of the pattern comparator checked fault tolerant system.undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-244: Cross-Site Scripting via Encoded URI Schemes" name="Step3.3 Content spoofing" time="0.000135">
+<skipped><![CDATA[Given prepare to Content spoofing...........................................passed
+When Try to Content spoofing................................................passed
+Then Assert the success of Content spoofing.................................passed
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+Then assert the consequences of the pattern application firewall............undefined
+Then assert the consequences of the pattern input guard.....................undefined
+Then assert the consequences of the pattern output guard....................undefined
+Then assert the consequences of the pattern comparator checked fault tolerant system.undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies" name="Step1.1 Obtain copy of cookie" time="0.000115">
+<skipped><![CDATA[Given prepare to Obtain copy of cookie......................................passed
+When Try to Obtain copy of cookie...........................................passed
+Then Assert the success of Obtain copy of cookie............................passed
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies" name="Step2.1 Obtain sensitive information from cookie" time="0.000118">
+<skipped><![CDATA[Given prepare to Obtain sensitive information from cookie...................passed
+When Try to Obtain sensitive information from cookie........................passed
+Then Assert the success of Obtain sensitive information from cookie.........passed
+Then assert the consequences of the pattern.................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies" name="Step2.2 Modify cookie to subvert security controls." time="0.000078">
+<skipped><![CDATA[Given prepare to Modify cookie to subvert security controls.................passed
+When Try to Modify cookie to subvert security controls......................passed
+Then Assert the success of Modify cookie to subvert security controls.......passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-39: Manipulating Opaque Client-based Data Tokens" name="Step1.1 Enumerate information passed to client side" time="0.000109">
+<skipped><![CDATA[Given prepare to Enumerate information passed to client side................passed
+When Try to Enumerate information passed to client side.....................passed
+Then Assert the success of Enumerate information passed to client side......passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-39: Manipulating Opaque Client-based Data Tokens" name="Step1.2 Determine protection mechanism for opaque token" time="0.000073">
+<skipped><![CDATA[Given prepare to Determine protection mechanism for opaque token............passed
+When Try to Determine protection mechanism for opaque token.................passed
+Then Assert the success of Determine protection mechanism for opaque token..passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-39: Manipulating Opaque Client-based Data Tokens" name="Step2.1 Modify parameter/token values" time="0.000089">
+<skipped><![CDATA[Given prepare to Modify parameter/token values..............................passed
+When Try to Modify parameter/token values...................................passed
+Then Assert the success of Modify parameter/token values....................passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-39: Manipulating Opaque Client-based Data Tokens" name="Step2.2 Cycle through values for each parameter." time="0.000076">
+<skipped><![CDATA[Given prepare to Cycle through values for each parameter....................passed
+When Try to Cycle through values for each parameter.........................passed
+Then Assert the success of Cycle through values for each parameter..........passed
+Then assert the consequences of the pattern.................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-66: SQL Injection" name="Step1.1 Survey application" time="0.464868">
+<skipped><![CDATA[Given prepare to Survey application.........................................passed
+When Try to Survey application..............................................passed
+Then Assert the success of Survey application...............................passed
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-66: SQL Injection" name="Step2.1 Determine user-controllable input susceptible to injection" time="0.08819">
+<failure message="net.continuumsecurity.proxy.ProxyException: org.zaproxy.clientapi.core.ClientApiException: Paramètre manquant&#10;&#9;at net.continuumsecurity.proxy.ZAProxyScanner.setEnableScanners(ZAProxyScanner.java:130)&#10;&#9;at steps.determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection(determineusercontrollableinputsusceptibletoinjection.java:26)&#10;&#9;at ✽.Given prepare to Determine user-controllable input susceptible to injection(CAPEC_66_Step_2_1.feature:5)&#10;Caused by: org.zaproxy.clientapi.core.ClientApiException: Paramètre manquant&#10;&#9;at org.zaproxy.clientapi.core.ApiResponseFactory.getResponse(ApiResponseFactory.java:32)&#10;&#9;at org.zaproxy.clientapi.core.ClientApi.callApi(ClientApi.java:290)&#10;&#9;at org.zaproxy.clientapi.gen.Ascan.enableScanners(Ascan.java:396)&#10;&#9;at net.continuumsecurity.proxy.ZAProxyScanner.setEnableScanners(ZAProxyScanner.java:124)&#10;&#9;at steps.determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection(determineusercontrollableinputsusceptibletoinjection.java:26)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:37)&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:13)&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:31)&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:298)&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#10;&#9;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:98)&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#10;"><![CDATA[Given prepare to Determine user-controllable input susceptible to injection.failed
+When Try to Determine user-controllable input susceptible to injection......skipped
+Then Assert the success of Determine user-controllable input susceptible to injection.skipped
+Then assert the consequences of the pattern input guard.....................undefined
+Then assert the consequences of the pattern secure logger...................undefined
+
+StackTrace:
+net.continuumsecurity.proxy.ProxyException: org.zaproxy.clientapi.core.ClientApiException: Paramètre manquant
+	at net.continuumsecurity.proxy.ZAProxyScanner.setEnableScanners(ZAProxyScanner.java:130)
+	at steps.determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection(determineusercontrollableinputsusceptibletoinjection.java:26)
+	at ✽.Given prepare to Determine user-controllable input susceptible to injection(CAPEC_66_Step_2_1.feature:5)
+Caused by: org.zaproxy.clientapi.core.ClientApiException: Paramètre manquant
+	at org.zaproxy.clientapi.core.ApiResponseFactory.getResponse(ApiResponseFactory.java:32)
+	at org.zaproxy.clientapi.core.ClientApi.callApi(ClientApi.java:290)
+	at org.zaproxy.clientapi.gen.Ascan.enableScanners(Ascan.java:396)
+	at net.continuumsecurity.proxy.ZAProxyScanner.setEnableScanners(ZAProxyScanner.java:124)
+	at steps.determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection(determineusercontrollableinputsusceptibletoinjection.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+]]></failure>
+</testcase>
+<testcase classname="CAPEC-66: SQL Injection" name="Step2.2 Experiment and try to exploit SQL Injection vulnerability" time="0.000445">
+<skipped><![CDATA[Given prepare to Experiment and try to exploit SQL Injection vulnerability..passed
+When Try to Experiment and try to exploit SQL Injection vulnerability.......passed
+Then Assert the success of Experiment and try to exploit SQL Injection vulnerability.passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-76: Manipulating Input to File System Calls" name="Step1.1 Fingerprinting of the operating system" time="0.000126">
+<skipped><![CDATA[Given prepare to Fingerprinting of the operating system.....................passed
+When Try to Fingerprinting of the operating system..........................passed
+Then Assert the success of Fingerprinting of the operating system...........passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-76: Manipulating Input to File System Calls" name="Step1.2 Survey the Application to Identify User-controllable Inputs" time="0.985914">
+<skipped><![CDATA[Given prepare to Survey the Application to Identify User-controllable Inputs.passed
+When Try to Survey the Application to Identify User-controllable Inputs.....passed
+Then Assert the success of Survey the Application to Identify User-controllable Inputs.passed
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-76: Manipulating Input to File System Calls" name="Step2.1 Vary inputs, looking for malicious results" time="0">
+<skipped><![CDATA[Given prepare to Vary inputs, looking for malicious results.................undefined
+When Try to Vary inputs, looking for malicious results......................undefined
+Then Assert the success of Vary inputs, looking for malicious results.......undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-76: Manipulating Input to File System Calls" name="Step3.1 Manipulate files accessible by the application" time="0.000198">
+<skipped><![CDATA[Given prepare to Manipulate files accessible by the application.............passed
+When Try to Manipulate files accessible by the application..................passed
+Then Assert the success of Manipulate files accessible by the application...passed
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-77: Manipulating User-Controlled Variables" name="Step1.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-77: Manipulating User-Controlled Variables" name="Step2.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-77: Manipulating User-Controlled Variables" name="Step3.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-94: Man in the Middle Attack" name="Step1.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+<testcase classname="CAPEC-94: Man in the Middle Attack" name="Step3.1" time="0">
+<skipped><![CDATA[Given prepare to............................................................undefined
+When Try to.................................................................undefined
+Then Assert the success of..................................................undefined
+Then assert the consequences of the pattern.................................undefined
+Then assert the consequences of the pattern audit interceptor...............undefined
+Then assert the consequences of the pattern secure logger...................undefined
+]]></skipped>
+</testcase>
+</testsuite>

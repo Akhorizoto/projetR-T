@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<adtree>
+	<node refinement="conjunctive">
+		<label>root</label>
+		<node refinement="conjunctive">
+			<label>CAPEC-66</label>
+		</node>
+		<node refinement="conjunctive">
+			<label>CAPEC-244</label>
+		</node>
+		<node refinement="conjunctive">
+			<label>CAPEC-22</label>
+		</node>
+	</node>
+</adtree>

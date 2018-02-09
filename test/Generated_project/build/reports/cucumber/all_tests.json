@@ -1,0 +1,4048 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1",
+        "description": "",
+        "id": "capec-10:-buffer-overflow-via-environment-variables;step1.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-10: Buffer Overflow via Environment Variables",
+    "description": "",
+    "id": "capec-10:-buffer-overflow-via-environment-variables",
+    "keyword": "Feature",
+    "uri": "CAPEC_10_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec10"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1",
+        "description": "",
+        "id": "capec-10:-buffer-overflow-via-environment-variables;step2.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-10: Buffer Overflow via Environment Variables",
+    "description": "",
+    "id": "capec-10:-buffer-overflow-via-environment-variables",
+    "keyword": "Feature",
+    "uri": "CAPEC_10_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec10"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1",
+        "description": "",
+        "id": "capec-10:-buffer-overflow-via-environment-variables;step3.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-10: Buffer Overflow via Environment Variables",
+    "description": "",
+    "id": "capec-10:-buffer-overflow-via-environment-variables",
+    "keyword": "Feature",
+    "uri": "CAPEC_10_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec10"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1",
+        "description": "",
+        "id": "capec-13:-subverting-environment-variable-values;step1.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-13: Subverting Environment Variable Values",
+    "description": "",
+    "id": "capec-13:-subverting-environment-variable-values",
+    "keyword": "Feature",
+    "uri": "CAPEC_13_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec13"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1",
+        "description": "",
+        "id": "capec-13:-subverting-environment-variable-values;step2.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-13: Subverting Environment Variable Values",
+    "description": "",
+    "id": "capec-13:-subverting-environment-variable-values",
+    "keyword": "Feature",
+    "uri": "CAPEC_13_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec13"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1",
+        "description": "",
+        "id": "capec-13:-subverting-environment-variable-values;step3.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-13: Subverting Environment Variable Values",
+    "description": "",
+    "id": "capec-13:-subverting-environment-variable-values",
+    "keyword": "Feature",
+    "uri": "CAPEC_13_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec13"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Probing",
+        "description": "",
+        "id": "capec-207:-removing-important-client-functionality;step1.1-probing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63396669,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Probing",
+            "match": {
+              "location": "probing.preprobing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66110,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Probing",
+            "match": {
+              "location": "probing.tryprobing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17446,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Probing",
+            "match": {
+              "location": "probing.assprobing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-207: Removing Important Client Functionality",
+    "description": "",
+    "id": "capec-207:-removing-important-client-functionality",
+    "keyword": "Feature",
+    "uri": "CAPEC_207_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec207"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Determine which functionality to disable or remove",
+        "description": "",
+        "id": "capec-207:-removing-important-client-functionality;step2.1-determine-which-functionality-to-disable-or-remove",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82251,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Determine which functionality to disable or remove",
+            "match": {
+              "location": "determinewhichfunctionalitytodisableorremove.predeterminewhichfunctionalitytodisableorremove()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23109,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Determine which functionality to disable or remove",
+            "match": {
+              "location": "determinewhichfunctionalitytodisableorremove.trydeterminewhichfunctionalitytodisableorremove()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24631,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Determine which functionality to disable or remove",
+            "match": {
+              "location": "determinewhichfunctionalitytodisableorremove.assdeterminewhichfunctionalitytodisableorremove()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-207: Removing Important Client Functionality",
+    "description": "",
+    "id": "capec-207:-removing-important-client-functionality",
+    "keyword": "Feature",
+    "uri": "CAPEC_207_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec207"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1 Disable or remove the critical functionality from the client code",
+        "description": "",
+        "id": "capec-207:-removing-important-client-functionality;step3.1-disable-or-remove-the-critical-functionality-from-the-client-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83074,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Disable or remove the critical functionality from the client code",
+            "match": {
+              "location": "disableorremovethecriticalfunctionalityfromtheclientcode.predisableorremovethecriticalfunctionalityfromtheclientcode()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28616,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Disable or remove the critical functionality from the client code",
+            "match": {
+              "location": "disableorremovethecriticalfunctionalityfromtheclientcode.trydisableorremovethecriticalfunctionalityfromtheclientcode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19445,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Disable or remove the critical functionality from the client code",
+            "match": {
+              "location": "disableorremovethecriticalfunctionalityfromtheclientcode.assdisableorremovethecriticalfunctionalityfromtheclientcode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-207: Removing Important Client Functionality",
+    "description": "",
+    "id": "capec-207:-removing-important-client-functionality",
+    "keyword": "Feature",
+    "uri": "CAPEC_207_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec207"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Survey the target",
+        "description": "",
+        "id": "capec-219:-xml-routing-detour-attacks;step1.1-survey-the-target",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 452573993,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Survey the target",
+            "match": {
+              "location": "surveythetarget.presurveythetarget()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52315800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Survey the target",
+            "match": {
+              "location": "surveythetarget.trysurveythetarget()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54803215,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Survey the target",
+            "match": {
+              "location": "surveythetarget.asssurveythetarget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-219: XML Routing Detour Attacks",
+    "description": "",
+    "id": "capec-219:-xml-routing-detour-attacks",
+    "keyword": "Feature",
+    "uri": "CAPEC_219_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec219"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Identify SOAP messages that have multiple state processing.",
+        "description": "",
+        "id": "capec-219:-xml-routing-detour-attacks;step2.1-identify-soap-messages-that-have-multiple-state-processing.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113573,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Identify SOAP messages that have multiple state processing.",
+            "match": {
+              "location": "identifysoapmessagesthathavemultiplestateprocessing.preidentifysoapmessagesthathavemultiplestateprocessing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17575,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Identify SOAP messages that have multiple state processing.",
+            "match": {
+              "location": "identifysoapmessagesthathavemultiplestateprocessing.tryidentifysoapmessagesthathavemultiplestateprocessing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13703,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Identify SOAP messages that have multiple state processing.",
+            "match": {
+              "location": "identifysoapmessagesthathavemultiplestateprocessing.assidentifysoapmessagesthathavemultiplestateprocessing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-219: XML Routing Detour Attacks",
+    "description": "",
+    "id": "capec-219:-xml-routing-detour-attacks",
+    "keyword": "Feature",
+    "uri": "CAPEC_219_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec219"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1 Launch an XML routing detour attack",
+        "description": "",
+        "id": "capec-219:-xml-routing-detour-attacks;step3.1-launch-an-xml-routing-detour-attack",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112005,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Launch an XML routing detour attack",
+            "match": {
+              "location": "launchanxmlroutingdetourattack.prelaunchanxmlroutingdetourattack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11211,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Launch an XML routing detour attack",
+            "match": {
+              "location": "launchanxmlroutingdetourattack.trylaunchanxmlroutingdetourattack()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26684,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Launch an XML routing detour attack",
+            "match": {
+              "location": "launchanxmlroutingdetourattack.asslaunchanxmlroutingdetourattack()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-219: XML Routing Detour Attacks",
+    "description": "",
+    "id": "capec-219:-xml-routing-detour-attacks",
+    "keyword": "Feature",
+    "uri": "CAPEC_219_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec219"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Survey the application",
+        "description": "",
+        "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes;step1.1-survey-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 482736513,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Survey the application",
+            "match": {
+              "location": "surveytheapplication.presurveytheapplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118747285,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Survey the application",
+            "match": {
+              "location": "surveytheapplication.trysurveytheapplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46351663,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Survey the application",
+            "match": {
+              "location": "surveytheapplication.asssurveytheapplication()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-244: Cross-Site Scripting via Encoded URI Schemes",
+    "description": "",
+    "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes",
+    "keyword": "Feature",
+    "uri": "CAPEC_244_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec244"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Attempt injection payload variations on input parameters",
+        "description": "",
+        "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes;step2.1-attempt-injection-payload-variations-on-input-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45278747,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Attempt injection payload variations on input parameters",
+            "match": {
+              "location": "attemptinjectionpayloadvariationsoninputparameters.preattemptinjectionpayloadvariationsoninputparameters()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19650784389,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Attempt injection payload variations on input parameters",
+            "match": {
+              "location": "attemptinjectionpayloadvariationsoninputparameters.tryattemptinjectionpayloadvariationsoninputparameters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15330878,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Attempt injection payload variations on input parameters",
+            "match": {
+              "location": "attemptinjectionpayloadvariationsoninputparameters.assattemptinjectionpayloadvariationsoninputparameters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# benifits audit interceptor"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern input guard",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-244: Cross-Site Scripting via Encoded URI Schemes",
+    "description": "",
+    "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes",
+    "keyword": "Feature",
+    "uri": "CAPEC_244_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec244"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1 Steal session IDs, credentials, page content, etc.",
+        "description": "",
+        "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes;step3.1-steal-session-ids,-credentials,-page-content,-etc.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62928,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Steal session IDs, credentials, page content, etc.",
+            "match": {
+              "location": "stealsessionidscredentialspagecontentetc.prestealsessionidscredentialspagecontentetc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22647,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Steal session IDs, credentials, page content, etc.",
+            "match": {
+              "location": "stealsessionidscredentialspagecontentetc.trystealsessionidscredentialspagecontentetc()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13782,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Steal session IDs, credentials, page content, etc.",
+            "match": {
+              "location": "stealsessionidscredentialspagecontentetc.assstealsessionidscredentialspagecontentetc()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# benifits audit interceptor"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern application firewall",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "# alternative output guard"
+              },
+              {
+                "line": 16,
+                "value": "# alternative input guard"
+              }
+            ],
+            "line": 17,
+            "name": "assert the consequences of the pattern input guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 18,
+                "value": "# alternative application firewall"
+              },
+              {
+                "line": 19,
+                "value": "# benifits output guard"
+              }
+            ],
+            "line": 20,
+            "name": "assert the consequences of the pattern output guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 21,
+                "value": "# alternative application firewall"
+              },
+              {
+                "line": 22,
+                "value": "# benifits input guard"
+              }
+            ],
+            "line": 23,
+            "name": "assert the consequences of the pattern comparator checked fault tolerant system",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-244: Cross-Site Scripting via Encoded URI Schemes",
+    "description": "",
+    "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes",
+    "keyword": "Feature",
+    "uri": "CAPEC_244_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec244"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.2 Forceful browsing",
+        "description": "",
+        "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes;step3.2-forceful-browsing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78169,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Forceful browsing",
+            "match": {
+              "location": "forcefulbrowsing.preforcefulbrowsing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23191,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Forceful browsing",
+            "match": {
+              "location": "forcefulbrowsing.tryforcefulbrowsing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19572,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Forceful browsing",
+            "match": {
+              "location": "forcefulbrowsing.assforcefulbrowsing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# benifits audit interceptor"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern application firewall",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "# alternative output guard"
+              },
+              {
+                "line": 16,
+                "value": "# alternative input guard"
+              }
+            ],
+            "line": 17,
+            "name": "assert the consequences of the pattern input guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 18,
+                "value": "# alternative application firewall"
+              },
+              {
+                "line": 19,
+                "value": "# benifits output guard"
+              }
+            ],
+            "line": 20,
+            "name": "assert the consequences of the pattern output guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 21,
+                "value": "# alternative application firewall"
+              },
+              {
+                "line": 22,
+                "value": "# benifits input guard"
+              }
+            ],
+            "line": 23,
+            "name": "assert the consequences of the pattern comparator checked fault tolerant system",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-244: Cross-Site Scripting via Encoded URI Schemes",
+    "description": "",
+    "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes",
+    "keyword": "Feature",
+    "uri": "CAPEC_244_Step_3_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec244"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.3 Content spoofing",
+        "description": "",
+        "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes;step3.3-content-spoofing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77487,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Content spoofing",
+            "match": {
+              "location": "contentspoofing.precontentspoofing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37047,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Content spoofing",
+            "match": {
+              "location": "contentspoofing.trycontentspoofing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20186,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Content spoofing",
+            "match": {
+              "location": "contentspoofing.asscontentspoofing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# benifits audit interceptor"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern application firewall",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "# alternative output guard"
+              },
+              {
+                "line": 16,
+                "value": "# alternative input guard"
+              }
+            ],
+            "line": 17,
+            "name": "assert the consequences of the pattern input guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 18,
+                "value": "# alternative application firewall"
+              },
+              {
+                "line": 19,
+                "value": "# benifits output guard"
+              }
+            ],
+            "line": 20,
+            "name": "assert the consequences of the pattern output guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 21,
+                "value": "# alternative application firewall"
+              },
+              {
+                "line": 22,
+                "value": "# benifits input guard"
+              }
+            ],
+            "line": 23,
+            "name": "assert the consequences of the pattern comparator checked fault tolerant system",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-244: Cross-Site Scripting via Encoded URI Schemes",
+    "description": "",
+    "id": "capec-244:-cross-site-scripting-via-encoded-uri-schemes",
+    "keyword": "Feature",
+    "uri": "CAPEC_244_Step_3_3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec244"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Obtain copy of cookie",
+        "description": "",
+        "id": "capec-31:-accessing/intercepting/modifying-http-cookies;step1.1-obtain-copy-of-cookie",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76918,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Obtain copy of cookie",
+            "match": {
+              "location": "obtaincopyofcookie.preobtaincopyofcookie()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19941,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Obtain copy of cookie",
+            "match": {
+              "location": "obtaincopyofcookie.tryobtaincopyofcookie()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17717,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Obtain copy of cookie",
+            "match": {
+              "location": "obtaincopyofcookie.assobtaincopyofcookie()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies",
+    "description": "",
+    "id": "capec-31:-accessing/intercepting/modifying-http-cookies",
+    "keyword": "Feature",
+    "uri": "CAPEC_31_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec31"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Obtain sensitive information from cookie",
+        "description": "",
+        "id": "capec-31:-accessing/intercepting/modifying-http-cookies;step2.1-obtain-sensitive-information-from-cookie",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78418,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Obtain sensitive information from cookie",
+            "match": {
+              "location": "obtainsensitiveinformationfromcookie.preobtainsensitiveinformationfromcookie()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21524,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Obtain sensitive information from cookie",
+            "match": {
+              "location": "obtainsensitiveinformationfromcookie.tryobtainsensitiveinformationfromcookie()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18112,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Obtain sensitive information from cookie",
+            "match": {
+              "location": "obtainsensitiveinformationfromcookie.assobtainsensitiveinformationfromcookie()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies",
+    "description": "",
+    "id": "capec-31:-accessing/intercepting/modifying-http-cookies",
+    "keyword": "Feature",
+    "uri": "CAPEC_31_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec31"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.2 Modify cookie to subvert security controls.",
+        "description": "",
+        "id": "capec-31:-accessing/intercepting/modifying-http-cookies;step2.2-modify-cookie-to-subvert-security-controls.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53658,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Modify cookie to subvert security controls.",
+            "match": {
+              "location": "modifycookietosubvertsecuritycontrols.premodifycookietosubvertsecuritycontrols()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14132,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Modify cookie to subvert security controls.",
+            "match": {
+              "location": "modifycookietosubvertsecuritycontrols.trymodifycookietosubvertsecuritycontrols()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10690,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Modify cookie to subvert security controls.",
+            "match": {
+              "location": "modifycookietosubvertsecuritycontrols.assmodifycookietosubvertsecuritycontrols()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies",
+    "description": "",
+    "id": "capec-31:-accessing/intercepting/modifying-http-cookies",
+    "keyword": "Feature",
+    "uri": "CAPEC_31_Step_2_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec31"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Enumerate information passed to client side",
+        "description": "",
+        "id": "capec-39:-manipulating-opaque-client-based-data-tokens;step1.1-enumerate-information-passed-to-client-side",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67527,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Enumerate information passed to client side",
+            "match": {
+              "location": "enumerateinformationpassedtoclientside.preenumerateinformationpassedtoclientside()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27418,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Enumerate information passed to client side",
+            "match": {
+              "location": "enumerateinformationpassedtoclientside.tryenumerateinformationpassedtoclientside()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13792,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Enumerate information passed to client side",
+            "match": {
+              "location": "enumerateinformationpassedtoclientside.assenumerateinformationpassedtoclientside()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-39: Manipulating Opaque Client-based Data Tokens",
+    "description": "",
+    "id": "capec-39:-manipulating-opaque-client-based-data-tokens",
+    "keyword": "Feature",
+    "uri": "CAPEC_39_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec39"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.2 Determine protection mechanism for opaque token",
+        "description": "",
+        "id": "capec-39:-manipulating-opaque-client-based-data-tokens;step1.2-determine-protection-mechanism-for-opaque-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48423,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Determine protection mechanism for opaque token",
+            "match": {
+              "location": "determineprotectionmechanismforopaquetoken.predetermineprotectionmechanismforopaquetoken()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13425,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Determine protection mechanism for opaque token",
+            "match": {
+              "location": "determineprotectionmechanismforopaquetoken.trydetermineprotectionmechanismforopaquetoken()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11344,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Determine protection mechanism for opaque token",
+            "match": {
+              "location": "determineprotectionmechanismforopaquetoken.assdetermineprotectionmechanismforopaquetoken()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-39: Manipulating Opaque Client-based Data Tokens",
+    "description": "",
+    "id": "capec-39:-manipulating-opaque-client-based-data-tokens",
+    "keyword": "Feature",
+    "uri": "CAPEC_39_Step_1_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec39"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Modify parameter/token values",
+        "description": "",
+        "id": "capec-39:-manipulating-opaque-client-based-data-tokens;step2.1-modify-parameter/token-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62511,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Modify parameter/token values",
+            "match": {
+              "location": "modifyparametertokenvalues.premodifyparametertokenvalues()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12861,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Modify parameter/token values",
+            "match": {
+              "location": "modifyparametertokenvalues.trymodifyparametertokenvalues()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13330,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Modify parameter/token values",
+            "match": {
+              "location": "modifyparametertokenvalues.assmodifyparametertokenvalues()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-39: Manipulating Opaque Client-based Data Tokens",
+    "description": "",
+    "id": "capec-39:-manipulating-opaque-client-based-data-tokens",
+    "keyword": "Feature",
+    "uri": "CAPEC_39_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec39"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.2 Cycle through values for each parameter.",
+        "description": "",
+        "id": "capec-39:-manipulating-opaque-client-based-data-tokens;step2.2-cycle-through-values-for-each-parameter.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49013,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Cycle through values for each parameter.",
+            "match": {
+              "location": "cyclethroughvaluesforeachparameter.precyclethroughvaluesforeachparameter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14578,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Cycle through values for each parameter.",
+            "match": {
+              "location": "cyclethroughvaluesforeachparameter.trycyclethroughvaluesforeachparameter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12688,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Cycle through values for each parameter.",
+            "match": {
+              "location": "cyclethroughvaluesforeachparameter.asscyclethroughvaluesforeachparameter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-39: Manipulating Opaque Client-based Data Tokens",
+    "description": "",
+    "id": "capec-39:-manipulating-opaque-client-based-data-tokens",
+    "keyword": "Feature",
+    "uri": "CAPEC_39_Step_2_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec39"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Survey application",
+        "description": "",
+        "id": "capec-66:-sql-injection;step1.1-survey-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 401760770,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Survey application",
+            "match": {
+              "location": "surveyapplication.presurveyapplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31103592,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Survey application",
+            "match": {
+              "location": "surveyapplication.trysurveyapplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32003205,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Survey application",
+            "match": {
+              "location": "surveyapplication.asssurveyapplication()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-66: SQL Injection",
+    "description": "",
+    "id": "capec-66:-sql-injection",
+    "keyword": "Feature",
+    "uri": "CAPEC_66_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec66"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Determine user-controllable input susceptible to injection",
+        "description": "",
+        "id": "capec-66:-sql-injection;step2.1-determine-user-controllable-input-susceptible-to-injection",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88189973,
+              "error_message": "net.continuumsecurity.proxy.ProxyException: org.zaproxy.clientapi.core.ClientApiException: Paramètre manquant\n\tat net.continuumsecurity.proxy.ZAProxyScanner.setEnableScanners(ZAProxyScanner.java:130)\n\tat steps.determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection(determineusercontrollableinputsusceptibletoinjection.java:26)\n\tat ✽.Given prepare to Determine user-controllable input susceptible to injection(CAPEC_66_Step_2_1.feature:5)\nCaused by: org.zaproxy.clientapi.core.ClientApiException: Paramètre manquant\n\tat org.zaproxy.clientapi.core.ApiResponseFactory.getResponse(ApiResponseFactory.java:32)\n\tat org.zaproxy.clientapi.core.ClientApi.callApi(ClientApi.java:290)\n\tat org.zaproxy.clientapi.gen.Ascan.enableScanners(Ascan.java:396)\n\tat net.continuumsecurity.proxy.ZAProxyScanner.setEnableScanners(ZAProxyScanner.java:124)\n\tat steps.determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection(determineusercontrollableinputsusceptibletoinjection.java:26)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:298)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "prepare to Determine user-controllable input susceptible to injection",
+            "match": {
+              "location": "determineusercontrollableinputsusceptibletoinjection.predetermineusercontrollableinputsusceptibletoinjection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Try to Determine user-controllable input susceptible to injection",
+            "match": {
+              "location": "determineusercontrollableinputsusceptibletoinjection.trydetermineusercontrollableinputsusceptibletoinjection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Determine user-controllable input susceptible to injection",
+            "match": {
+              "location": "determineusercontrollableinputsusceptibletoinjection.assdetermineusercontrollableinputsusceptibletoinjection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern input guard",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# alternative application firewall"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-66: SQL Injection",
+    "description": "",
+    "id": "capec-66:-sql-injection",
+    "keyword": "Feature",
+    "uri": "CAPEC_66_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec66"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.2 Experiment and try to exploit SQL Injection vulnerability",
+        "description": "",
+        "id": "capec-66:-sql-injection;step2.2-experiment-and-try-to-exploit-sql-injection-vulnerability",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94122,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Experiment and try to exploit SQL Injection vulnerability",
+            "match": {
+              "location": "experimentandtrytoexploitsqlinjectionvulnerability.preexperimentandtrytoexploitsqlinjectionvulnerability()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315577,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Experiment and try to exploit SQL Injection vulnerability",
+            "match": {
+              "location": "experimentandtrytoexploitsqlinjectionvulnerability.tryexperimentandtrytoexploitsqlinjectionvulnerability()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35723,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Experiment and try to exploit SQL Injection vulnerability",
+            "match": {
+              "location": "experimentandtrytoexploitsqlinjectionvulnerability.assexperimentandtrytoexploitsqlinjectionvulnerability()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-66: SQL Injection",
+    "description": "",
+    "id": "capec-66:-sql-injection",
+    "keyword": "Feature",
+    "uri": "CAPEC_66_Step_2_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec66"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1 Fingerprinting of the operating system",
+        "description": "",
+        "id": "capec-76:-manipulating-input-to-file-system-calls;step1.1-fingerprinting-of-the-operating-system",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86651,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Fingerprinting of the operating system",
+            "match": {
+              "location": "fingerprintingoftheoperatingsystem.prefingerprintingoftheoperatingsystem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22718,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Fingerprinting of the operating system",
+            "match": {
+              "location": "fingerprintingoftheoperatingsystem.tryfingerprintingoftheoperatingsystem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16273,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Fingerprinting of the operating system",
+            "match": {
+              "location": "fingerprintingoftheoperatingsystem.assfingerprintingoftheoperatingsystem()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-76: Manipulating Input to File System Calls",
+    "description": "",
+    "id": "capec-76:-manipulating-input-to-file-system-calls",
+    "keyword": "Feature",
+    "uri": "CAPEC_76_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec76"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.2 Survey the Application to Identify User-controllable Inputs",
+        "description": "",
+        "id": "capec-76:-manipulating-input-to-file-system-calls;step1.2-survey-the-application-to-identify-user-controllable-inputs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 838502093,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Survey the Application to Identify User-controllable Inputs",
+            "match": {
+              "location": "surveytheapplicationtoidentifyusercontrollableinputs.presurveytheapplicationtoidentifyusercontrollableinputs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131723631,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Survey the Application to Identify User-controllable Inputs",
+            "match": {
+              "location": "surveytheapplicationtoidentifyusercontrollableinputs.trysurveytheapplicationtoidentifyusercontrollableinputs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15688748,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Survey the Application to Identify User-controllable Inputs",
+            "match": {
+              "location": "surveytheapplicationtoidentifyusercontrollableinputs.asssurveytheapplicationtoidentifyusercontrollableinputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-76: Manipulating Input to File System Calls",
+    "description": "",
+    "id": "capec-76:-manipulating-input-to-file-system-calls",
+    "keyword": "Feature",
+    "uri": "CAPEC_76_Step_1_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec76"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1 Vary inputs, looking for malicious results",
+        "description": "",
+        "id": "capec-76:-manipulating-input-to-file-system-calls;step2.1-vary-inputs,-looking-for-malicious-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to Vary inputs, looking for malicious results",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to Vary inputs, looking for malicious results",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Vary inputs, looking for malicious results",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-76: Manipulating Input to File System Calls",
+    "description": "",
+    "id": "capec-76:-manipulating-input-to-file-system-calls",
+    "keyword": "Feature",
+    "uri": "CAPEC_76_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec76"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1 Manipulate files accessible by the application",
+        "description": "",
+        "id": "capec-76:-manipulating-input-to-file-system-calls;step3.1-manipulate-files-accessible-by-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "prepare to Manipulate files accessible by the application",
+            "match": {
+              "location": "manipulatefilesaccessiblebytheapplication.premanipulatefilesaccessiblebytheapplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26475,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try to Manipulate files accessible by the application",
+            "match": {
+              "location": "manipulatefilesaccessiblebytheapplication.trymanipulatefilesaccessiblebytheapplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25619,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of Manipulate files accessible by the application",
+            "match": {
+              "location": "manipulatefilesaccessiblebytheapplication.assmanipulatefilesaccessiblebytheapplication()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-76: Manipulating Input to File System Calls",
+    "description": "",
+    "id": "capec-76:-manipulating-input-to-file-system-calls",
+    "keyword": "Feature",
+    "uri": "CAPEC_76_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec76"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Explore"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1",
+        "description": "",
+        "id": "capec-77:-manipulating-user-controlled-variables;step1.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-77: Manipulating User-Controlled Variables",
+    "description": "",
+    "id": "capec-77:-manipulating-user-controlled-variables",
+    "keyword": "Feature",
+    "uri": "CAPEC_77_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec77"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#2. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step2.1",
+        "description": "",
+        "id": "capec-77:-manipulating-user-controlled-variables;step2.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-77: Manipulating User-Controlled Variables",
+    "description": "",
+    "id": "capec-77:-manipulating-user-controlled-variables",
+    "keyword": "Feature",
+    "uri": "CAPEC_77_Step_2_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec77"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1",
+        "description": "",
+        "id": "capec-77:-manipulating-user-controlled-variables;step3.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-77: Manipulating User-Controlled Variables",
+    "description": "",
+    "id": "capec-77:-manipulating-user-controlled-variables",
+    "keyword": "Feature",
+    "uri": "CAPEC_77_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec77"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#1. Experiment"
+          }
+        ],
+        "line": 4,
+        "name": "Step1.1",
+        "description": "",
+        "id": "capec-94:-man-in-the-middle-attack;step1.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-94: Man in the Middle Attack",
+    "description": "",
+    "id": "capec-94:-man-in-the-middle-attack",
+    "keyword": "Feature",
+    "uri": "CAPEC_94_Step_1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec94"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#3. Exploit"
+          }
+        ],
+        "line": 4,
+        "name": "Step3.1",
+        "description": "",
+        "id": "capec-94:-man-in-the-middle-attack;step3.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "prepare to",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Try to",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# assertion for attack step success"
+              }
+            ],
+            "line": 8,
+            "name": "Assert the success of",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#assertions for security pattern testing (checker whether the pattern consequences are observed)"
+              }
+            ],
+            "line": 10,
+            "name": "assert the consequences of the pattern",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#"
+              }
+            ],
+            "line": 12,
+            "name": "assert the consequences of the pattern audit interceptor",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "# depends secure logger"
+              }
+            ],
+            "line": 14,
+            "name": "assert the consequences of the pattern secure logger",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPEC-94: Man in the Middle Attack",
+    "description": "",
+    "id": "capec-94:-man-in-the-middle-attack",
+    "keyword": "Feature",
+    "uri": "CAPEC_94_Step_3_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@capec94"
+      }
+    ]
+  }
+]

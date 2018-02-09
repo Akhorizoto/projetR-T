@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Exeperiment"/>
+	<classpathentry exported="true" kind="lib" path="/Exeperiment/lib/harlib-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Exeperiment/lib/jssylze-0.2-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Exeperiment/lib/nessus-java-client-0.1-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Exeperiment/lib/zap-client-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common-3.6.200.v20130402-1505.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.resources-3.7.100.jar"/>
+	<classpathentry kind="lib" path="lib/runtime-3.9.100-v20131218-1515.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.11.3.v20170209-1843.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
